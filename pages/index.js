@@ -529,7 +529,7 @@ const Home = () => {
         <div className="glass-footer">
           <div className="copyright">
             <Text type="secondary">
-              © 2025 Zepp-Life-Steps
+              © 2025 Zepp-Life-Steps1
             </Text>
             <Text type="secondary">
               Powered By <Link href="https://github.com/miloce" target="_blank">Miloce</Link>
