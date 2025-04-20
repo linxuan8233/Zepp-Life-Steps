@@ -279,14 +279,6 @@ const Home = () => {
             className="header-button"
           />
         </Tooltip>
-        <Tooltip title="微信小程序">
-          <Button 
-            type="text" 
-            icon={<QrcodeOutlined />} 
-            onClick={() => setShowQRCode(true)}
-            className="header-button"
-          />
-        </Tooltip>
       </div>
 
       <div className="app-content">
@@ -507,25 +499,6 @@ const Home = () => {
             </TabPane>
           </Tabs>
         </div>
-        
-        <div className="action-buttons">
-          <Button 
-            icon={<GithubOutlined />} 
-            href="https://github.com/miloce/Zepp-Life-Steps" 
-            target="_blank"
-            className="glass-button-secondary"
-          >
-            GitHub
-          </Button>
-          <Button 
-            icon={<WechatOutlined />} 
-            onClick={() => setShowQRCode(true)}
-            className="glass-button-secondary"
-          >
-            微信小程序
-          </Button>
-        </div>
-        
         <div className="glass-footer">
           <div className="copyright">
             <Text type="secondary">
