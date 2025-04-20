@@ -531,9 +531,6 @@ const Home = () => {
             <Text type="secondary">
               © 2025 <Link href="https://qun.h-acker.cn" target="_blank">黑客聚集地</Link>
             </Text>
-            <Text type="secondary">
-              Powered By <Link href="https://github.com/miloce" target="_blank">Miloce</Link>
-            </Text>
           </div>
         </div>
       </div>
